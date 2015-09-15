@@ -1,0 +1,34 @@
+{
+  "name": "sintegra-php/sp",
+  "description": "Consulte gratuitamente CNPJ no site do Sintegra/SP",
+  "keywords": ["sintegra", "sp"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jansen Felipe",
+      "email": "jansen.felipe@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "ext-gd":"*",
+    "ext-curl":"*",
+    "fabpot/goutte": "~3.0",
+    "jansenfelipe/utils": "^2.0@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SintegraPHP\\SP\\": "src/"
+    }
+  },
+  "extra": {
+      "branch-alias": {
+          "dev-master": "1.0-dev"
+      }
+  },
+  "minimum-stability": "dev"
+}
